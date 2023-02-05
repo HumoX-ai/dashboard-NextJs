@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://https://dashboard-next-js-two.vercel.app/api/";
+const baseUrl = "http://https://dashboard-next-js-two.vercel.app/api";
 const getTeams = async (team) => {
   try {
     const res = await axios.get(`${baseUrl}/clubs/${team}`);
